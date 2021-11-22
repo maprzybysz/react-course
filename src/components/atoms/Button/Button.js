@@ -2,8 +2,6 @@ import React from 'react';
 import { ReactComponent as DeleteIcon } from 'assets/icons/delete-icon.svg';
 import { StyledButton } from './Button.styles';
 
-const alertMe = () => alert('click me');
-
 const Button = (props) => (
   <StyledButton {...props}>
     <DeleteIcon />
